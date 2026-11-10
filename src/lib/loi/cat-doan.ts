@@ -5,7 +5,6 @@
 //    +----(tay ha / dung yen / mat nguoi / qua dai)--- (doan khong dat: bao ly do)
 //
 // Moi nguong tinh bang GIAY (hang-so.ts) nen khong phu thuoc toc do khung hinh.
-// Thuan logic: khong dung trinh duyet, unit test duoc.
 import { CAT_DOAN } from './hang-so';
 import type { Khung, TinHieu } from './diem';
 

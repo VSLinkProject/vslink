@@ -1,5 +1,4 @@
-// Mot khung keypoint va cac tin hieu doc tu no. Thuan TypeScript, khong phu thuoc
-// trinh duyet -> unit test duoc.
+// Mot khung keypoint va cac tin hieu doc tu no.
 import { SO_DIEM, TI_LE_KHUNG_HUAN_LUYEN } from './hang-so';
 
 /** 75 diem x (x, y) = 150 so, TOA DO KHUNG HUAN LUYEN. (0, 0) = khong bat duoc. */

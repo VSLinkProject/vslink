@@ -1,7 +1,7 @@
 /**
  * VSLink — nhận góp ý từ Worker và ghi vào Google Sheet của nhóm.
  *
- * Cài đặt (xem README, mục "Bật hệ thống góp ý"):
+ * Cài đặt (xem docs/cai-dat.md, mục "Góp ý về Google Sheet"):
  *  1. Tạo một Google Sheet mới → Tiện ích mở rộng → Apps Script → xoá hết, dán tệp này → Lưu.
  *  2. Đổi KHOA bên dưới thành một chuỗi bí mật dài (ví dụ 32 ký tự ngẫu nhiên).
  *  3. Triển khai → Tùy chọn triển khai mới → Loại: Ứng dụng web

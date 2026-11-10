@@ -1,5 +1,5 @@
-// Loi nhan xet cua Meo SOAN SAN tu du kien do duoc. Dung khi chua cau hinh LLM,
-// khi mat mang hoac het luot — Meo khong bao gio "cam". Thuan logic, unit test duoc.
+// Loi nhan xet soan san cua Meo, dung khi khong goi duoc Gemini (chua cau hinh,
+// mat mang, het luot).
 import type { DanhGiaPhan, DuKien, GiaiDoan, Phan } from '$lib/loi/danh-gia';
 
 export type TamTrang = 'cho' | 'nghe' | 'suy-nghi' | 'vui' | 'co-vu' | 'boi-roi' | 'ngu';
