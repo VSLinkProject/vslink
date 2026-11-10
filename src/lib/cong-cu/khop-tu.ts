@@ -1,9 +1,9 @@
 // Khop 400 tu cua VSL400 voi danh sach ~4.400 video cua tu dien QIPEDC.
-// Thuan logic, unit test duoc. Ba tang, dung o tang dau tien tim thay:
-//   khop       — trung ten (khong phan biet hoa thuong, kieu bo dau "hoà"/"hòa")
-//   bo-ngoac   — bo phan trong ngoac: "Cao (người)" ~ "cao"; "Miến Điện (nước ...)" ~ "Miến Điện"
-//   bo-tien-to — bo "con / quả / trái / cái / màu": "Con mèo" ~ "mèo"
-// Tang 2, 3 chi la ung vien — mo hinh cham va nhom duyet moi quyet dinh.
+// Ba tang, dung o tang dau tien tim thay:
+//   khop       - trung ten (khong phan biet hoa thuong, kieu bo dau "hoà"/"hòa")
+//   bo-ngoac   - bo phan trong ngoac: "Cao (người)" ~ "cao"; "Miến Điện (nước ...)" ~ "Miến Điện"
+//   bo-tien-to - bo "con / quả / trái / cái / màu": "Con mèo" ~ "mèo"
+// Tang 2, 3 chi la ung vien; mo hinh cham va nhom duyet moi quyet dinh.
 // Ten khac han (dong nghia, cach viet khac) -> nhom tu tra trong danh sach QIPEDC va
 // them tay (cach 'them'), video them vao cung duoc mo hinh cham nhu cac video khac.
 import { mienTuMa, type Mien } from '$lib/loi/video-mau';
